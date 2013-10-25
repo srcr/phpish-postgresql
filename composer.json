@@ -1,0 +1,21 @@
+{
+	"name": "phpish/postgresql",
+	"type": "library",
+	"description": "Convenience wrapper around postgresql",
+	"keywords": ["db", "database", "postgresql"],
+	"homepage": "https://github.com/srcr/phpish-postgresql",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Peter Zuidema",
+			"email": "peter@icebear.net",
+			"homepage": "http://srcr.nl"
+		}
+	],
+	"require": {
+		"php": ">=5.3.0"
+	},
+	"autoload": {
+		"files": ["postgresql.php"]
+	}
+}
