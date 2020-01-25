@@ -94,7 +94,7 @@
 
 	function affected_rows($link=NULL)
 	{
-                # TODO: pg_affected_rows should be run with $result not @link
+        # TODO: pg_affected_rows should be run with $result not @link
 		$link = $link ?: _link();
 		return  pg_affected_rows($link);
 	}
